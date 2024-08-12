@@ -16,5 +16,5 @@ curve_fit: utilizada para ajustar la curva.
 Explique con #comentarios las acciones que se realiza en las diferentes partes del codigo.
 En la cual mayor tiempo me tomo fue la funcion "generar_peso" debido a que busque alguna furmula que me ayude a controlar los valores aleatorios en este caso use la "Formula de Broca" debido que solo nesesita de la altura para su uso, aunque tambien lo acompañe con una variable de peso_minimo que va desde los 15 a 30 kg, esto para no tener un valor negativo. Tambien agregue una variacion de +/- 5kg para una mayor variacion entre los pesos generados.
 
-Luego con un ciclo "for" con un rango de 100 datos genere los datos de altura que van desde los 0.8m a los 2.05m y de peso, los cuales se guardaron en los vectores de "estatura_metros" y "pesos".
+Luego con un ciclo "for" con un rango de 100 datos, genere los datos de altura (0.8m - 2.05m) y de peso, los cuales se guardaron en los vectores de "estatura_metros" y "pesos".
 En el siguiente ciclo "for" muestro los datos guardados en "estatura_metros" y "pesos"
