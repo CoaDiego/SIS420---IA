@@ -1,0 +1,20 @@
+PRÁCTICO 01
+Crear un archivo practico01.py  y practico.ipynb en el editor de su mayor agrado, 
+donde debe crear una tabla de 100 ejemplos con dos campos (peso y estatura), 
+considerar utilizar valores aleatorios controlados, es decir no se podria generar un ejemplo que 
+tenga un peso de 100 para una estatura de 0.80 metros o a la inversa que una persona con una estatura 
+de 2.05 metros tenga un peso de 30 kilos y asi sucesivamente, a partir de estos datos utilizar 
+estructuras de control repetitivo para lograr encontrar la curva que mejor represente la distribucion 
+de los puntos generados.
+
+En el archivo ".py" importe las librerias de 
+random: herramienta de operaciones relacionadas con la generación de números aleatorios y la selección aleatoria
+numpy: biblioteca para realizar cálculos numéricos en Python
+matplotlib.pyplot: Se uso para crear gráficos y visualizaciones en Python
+curve_fit: utilizada para ajustar la curva.
+
+Explique con #comentarios las acciones que se realiza en las diferentes partes del codigo.
+En la cual mayor tiempo me tomo fue la funcion "generar_peso" debido a que busque alguna furmula que me ayude a controlar los valores aleatorios en este caso use la "Formula de Broca" debido que solo nesesita de la altura para su uso, aunque tambien lo acompañe con una variable de peso_minimo que va desde los 15 a 30 kg, esto para no tener un valor negativo. Tambien agregue una variacion de +/- 5kg para una mayor variacion entre los pesos generados.
+
+Luego con un ciclo "for" con un rango de 100 datos genere los datos de altura que van desde los 0.8m a los 2.05m y de peso, los cuales se guardaron en los vectores de "estatura_metros" y "pesos".
+En el siguiente ciclo "for" muestro los datos guardados en "estatura_metros" y "pesos"
