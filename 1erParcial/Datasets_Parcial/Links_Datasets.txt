@@ -1,0 +1,15 @@
+20	https://www.kaggle.com/code/omarlarasa/pca-nn-and-cnn-with-keras/input
+
+23	https://www.kaggle.com/code/surajwate/bike-sharing-multiple-linear-regression/input
+
+96	https://www.kaggle.com/datasets/danbraswell/us-tornado-dataset-1950-2021
+
+99	https://www.kaggle.com/datasets/datamunge/sign-language-mnist
+
+172	https://www.kaggle.com/datasets/kannan1314/apple-stock-price-all-time
+
+175	https://www.kaggle.com/datasets/khusheekapoor/vehicle-insurance-fraud-detection
+
+239	https://www.kaggle.com/datasets/nohrud/mnistlike-dataset-squarecircletriangle?select=train_data.csv
+
+315	https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset
